@@ -1,5 +1,9 @@
 # Common IntelliJ Platform excludes
 
+# Jetbrain Rider Cache
+.idea/
+Assets/Plugins/Editor/JetBrains*
+
 # User specific
 **/.idea/**/workspace.xml
 **/.idea/**/tasks.xml
