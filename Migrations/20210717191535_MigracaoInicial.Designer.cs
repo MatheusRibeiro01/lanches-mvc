@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Lanches.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20210715194939_MigracaoInicial")]
+    [Migration("20210717191535_MigracaoInicial")]
     partial class MigracaoInicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -54,7 +54,7 @@ namespace Lanches.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("DescricaoDetalhado")
+                    b.Property<string>("DescricaoDetalhada")
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 

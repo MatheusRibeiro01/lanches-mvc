@@ -11,7 +11,7 @@ namespace Lanches.Models
         [StringLength(100)]
         public  string DescricaoCurta { get; set; }
         [StringLength(255)]
-        public string DescricaoDetalhado { get; set; }
+        public string DescricaoDetalhada { get; set; }
         public decimal Preco { get; set; }
         [StringLength(200)]
         public string ImagemUrl { get; set; }
